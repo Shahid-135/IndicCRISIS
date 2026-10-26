@@ -3,9 +3,6 @@
 **IndicCrisis: A Benchmark and Explainable Correlation-Aware Framework for Indic-Multilingual Multimodal
 Crisis Understanding** (under review, ACM Web Conference 2026)
 
-> **Anonymous review.** This repository is anonymised for double-blind review. Author names, the dataset
-> download link and the data licence will be added after the review.
-
 IndicCrisis is a bilingual **English–Hindi** dataset of **6,862 disaster news articles** (headline + image).
 Every article is annotated for five crisis tasks (crisis type, severity, informativeness, humanitarian category,
 resource need) **three times**: from the text alone, from the image alone and for the article as a whole,
