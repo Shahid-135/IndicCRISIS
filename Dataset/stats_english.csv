@@ -1,0 +1,5 @@
+,image_name,duplicate,description,CMC,Crisis_Text,Crisis_Image,Crisis_Combined,Severity_Text,Severity_Image,Severity_Combined,Informativeness_Text,Informativeness_Image,Informativeness_Combined,Humanitarian_Text,Humanitarian_Image,Humanitarian_Combined,Resource_Text,Resource_Image,Resource_Combined
+count,3116,3116,3116,3116,3116,3116,3116,3116,3116,3116,3116,3116,3116,3116,3116,3116,3116,3116,3116
+unique,3115,1,2992,3,7,7,7,3,3,3,2,2,2,4,4,4,5,5,5
+top,1551be93ee71.jpg,False,"Kolkata: 2 dead in hotel fire; owner, manager arrested - India Today ",Strong,Flood,Flood,Flood,Critical,Critical,Critical,Informative,Informative,Informative,Affected Individuals,Not Humanitarian,Affected Individuals,No Resource Need,No Resource Need,No Resource Need
+freq,2,3116,3,2067,713,713,699,1511,1293,1451,2810,2098,2696,1325,1110,998,1237,1392,1154

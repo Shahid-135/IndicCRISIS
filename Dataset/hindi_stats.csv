@@ -1,0 +1,190 @@
+### Descriptive Statistics ###
+Unnamed: 0,image_name,duplicate,description,CMC,Crisis_Text,Crisis_Image,Crisis_Combined,Severity_Text,Severity_Image,Severity_Combined,Informativeness_Text,Informativeness_Image,Informativeness_Combined,Humanitarian_Text,Humanitarian_Image,Humanitarian_Combined,Resource_Text,Resource_Image,Resource_Combined
+count,3747,3747,3747,3747,3747,3747,3747,3747,3747,3747,3747,3747,3747,3747,3747,3747,3747,3747,3747
+unique,3747,1,3638,3,7,7,7,3,3,3,2,2,2,4,4,4,5,5,5
+top,4299914b.jpg,False,"दिल्ली में तेज बारिश के साथ अचानक कैसे आ गया तूफान? जानें - क्यों नहीं दे पाया सटीक अलर्ट - दिल्ली में तेज आंधी और बारिश ने भारी तबाही मचाई, जिससे सड़कें और अंडरपास पानी में डूब गए और सामान्य जीवन अस्त - व्यस्त हो गया.",Strong,Flood / Water Disaster,Flood / Water Disaster,Flood / Water Disaster,Moderate,Moderate,Moderate,Informative,Informative,Informative,Not Humanitarian,Not Humanitarian,Not Humanitarian,No Resource Need,No Resource Need,No Resource Need
+freq,1,3747,3,2907,971,921,976,1882,2088,1895,3223,2874,3023,1233,1526,1203,2763,2884,2711
+
+
+### Null Value Counts ###
+Unnamed: 0,0
+image_name,0
+duplicate,0
+description,0
+CMC,0
+Crisis_Text,0
+Crisis_Image,0
+Crisis_Combined,0
+Severity_Text,0
+Severity_Image,0
+Severity_Combined,0
+Informativeness_Text,0
+Informativeness_Image,0
+Informativeness_Combined,0
+Humanitarian_Text,0
+Humanitarian_Image,0
+Humanitarian_Combined,0
+Resource_Text,0
+Resource_Image,0
+Resource_Combined,0
+
+
+### DataFrame Information ###
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3747 entries, 0 to 3746
+Data columns (total 19 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   image_name                3747 non-null   object
+ 1   duplicate                 3747 non-null   bool  
+ 2   description               3747 non-null   object
+ 3   CMC                       3747 non-null   object
+ 4   Crisis_Text               3747 non-null   object
+ 5   Crisis_Image              3747 non-null   object
+ 6   Crisis_Combined           3747 non-null   object
+ 7   Severity_Text             3747 non-null   object
+ 8   Severity_Image            3747 non-null   object
+ 9   Severity_Combined         3747 non-null   object
+ 10  Informativeness_Text      3747 non-null   object
+ 11  Informativeness_Image     3747 non-null   object
+ 12  Informativeness_Combined  3747 non-null   object
+ 13  Humanitarian_Text         3747 non-null   object
+ 14  Humanitarian_Image        3747 non-null   object
+ 15  Humanitarian_Combined     3747 non-null   object
+ 16  Resource_Text             3747 non-null   object
+ 17  Resource_Image            3747 non-null   object
+ 18  Resource_Combined         3747 non-null   object
+dtypes: bool(1), object(18)
+memory usage: 530.7+ KB
+
+
+### Value Counts for CMC ###
+CMC,count
+Strong,2907
+Partial,444
+Low,396
+
+
+### Value Counts for Crisis_Combined ###
+Crisis_Combined,count
+Flood / Water Disaster,976
+Cyclone / Storm / Extreme Weather,763
+Earthquake & Geological,727
+Fire,457
+Other,322
+Infrastructure Damage,292
+Human Casualties,210
+
+
+### Value Counts for Crisis_Image ###
+Crisis_Image,count
+Flood / Water Disaster,921
+Cyclone / Storm / Extreme Weather,735
+Earthquake & Geological,674
+Other,549
+Fire,381
+Infrastructure Damage,323
+Human Casualties,164
+
+
+### Value Counts for Crisis_Text ###
+Crisis_Text,count
+Flood / Water Disaster,971
+Cyclone / Storm / Extreme Weather,774
+Earthquake & Geological,727
+Fire,454
+Other,311
+Infrastructure Damage,292
+Human Casualties,218
+
+
+### Value Counts for Humanitarian_Combined ###
+Humanitarian_Combined,count
+Not Humanitarian,1203
+Infrastructure & Utilities,1144
+Affected Individuals,1114
+Rescue,286
+
+
+### Value Counts for Humanitarian_Image ###
+Humanitarian_Image,count
+Not Humanitarian,1526
+Infrastructure & Utilities,1209
+Affected Individuals,760
+Rescue,252
+
+
+### Value Counts for Humanitarian_Text ###
+Humanitarian_Text,count
+Not Humanitarian,1233
+Affected Individuals,1134
+Infrastructure & Utilities,1107
+Rescue,273
+
+
+### Value Counts for Informativeness_Combined ###
+Informativeness_Combined,count
+Informative,3023
+Low Informativeness,724
+
+
+### Value Counts for Informativeness_Image ###
+Informativeness_Image,count
+Informative,2874
+Low Informativeness,873
+
+
+### Value Counts for Informativeness_Text ###
+Informativeness_Text,count
+Informative,3223
+Low Informativeness,524
+
+
+### Value Counts for Resource_Combined ###
+Resource_Combined,count
+No Resource Need,2711
+Other,456
+Rescue Equipment,312
+Relief Materials,209
+Medical,59
+
+
+### Value Counts for Resource_Image ###
+Resource_Image,count
+No Resource Need,2884
+Other,354
+Rescue Equipment,295
+Relief Materials,169
+Medical,45
+
+
+### Value Counts for Resource_Text ###
+Resource_Text,count
+No Resource Need,2763
+Other,423
+Rescue Equipment,298
+Relief Materials,198
+Medical,65
+
+
+### Value Counts for Severity_Combined ###
+Severity_Combined,count
+Moderate,1895
+Serious,1009
+Critical,843
+
+
+### Value Counts for Severity_Image ###
+Severity_Image,count
+Moderate,2088
+Serious,935
+Critical,724
+
+
+### Value Counts for Severity_Text ###
+Severity_Text,count
+Moderate,1882
+Serious,987
+Critical,878
+
+
