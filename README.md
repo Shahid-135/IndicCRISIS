@@ -40,8 +40,8 @@ measure correlation; an optional frozen VLM "knowledge view" feeds only the rout
 - [Citation](#citation) · [Licence](#licence)
 
 
-## Dataset Details 
-# IndicCrisis: dataset documentation
+# Dataset Details 
+## IndicCrisis: dataset documentation
 
 IndicCrisis is a bilingual (English–Hindi) multimodal dataset of **6,862 disaster news posts**, each pairing a news headline with its image. Every post is annotated for five crisis tasks **three times** (text only, image only, combined) and once for the **cross-modal correlation (CMC)** between text and image: 1 + 5 × 3 = **16 annotation fields per post**.
 
