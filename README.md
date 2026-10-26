@@ -18,7 +18,7 @@ experiments, the step-wise diagnostics, the CrisisMMD experiments and the script
 figure of the paper and its supplementary material.
 
 <p align="center">
-  <img src="assets/arch_final.png" width="100%" alt="CCEC-G architecture">
+  <img src="arch_final.png" width="100%" alt="CCEC-G architecture">
 </p>
 
 **CCEC-G** (Correlation-Conditioned Evidence Composition with Graph-contrastive correlation learning) follows
