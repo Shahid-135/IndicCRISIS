@@ -133,26 +133,7 @@ Counts are unique English keywords per category; a keyword can belong to several
 |  | No Resource Need | The content neither reports nor implies any resource need. |
 
 
-## 5. Label consolidation
-
-The initial rulebook used finer classes; sparse classes were merged after annotation. In addition, the English and Hindi annotation files used different names for two crisis types, which were harmonised.
-
-| Task | Initial label(s) | Final label | Reason |
-| --- | --- | --- | --- |
-| T0 CMC | Strong | Strong | unchanged |
-| T0 CMC | Partial | Partial | unchanged |
-| T0 CMC | Weak; Uncorrelated | Low | sparse classes merged |
-| T1 Crisis type | Flood (EN and HI files) | Flood / Water Disaster | renamed |
-| T1 Crisis type | Cyclone (EN and HI files) | Cyclone / Storm / Extreme Weather | renamed |
-| T1 Crisis type | Earthquake (EN file); Earthquake & Geological (HI file) | Earthquake & Geological | same class, different names in the two files |
-| T1 Crisis type | Wildfire (EN file); Fire (HI file) | Fire & Industrial Accident | same class, different names in the two files |
-| T2 Severity | Moderate; Minor/Informational | Moderate | sparse class merged |
-| T3 Informativeness | Low Informativeness; Not Informative | Low Informativeness | sparse class merged |
-| T4 Humanitarian | Rescue & Search Operations; Medical & Health | Rescue & Medical | sparse classes merged |
-| T5 Resource need | Food & Water; Logistics & Access; Financial | Other | sparse classes merged |
-
-
-## 6. Label distributions by language
+## 5. Label distributions by language
 
 Number of posts (and share within the language) per class, for each annotation view. EN: English (3,119 posts), HI: Hindi (3,743), All: 6,862.
 
@@ -215,7 +196,7 @@ Number of posts (and share within the language) per class, for each annotation v
 | No Resource Need | 1,241 (39.8%) | 1,396 (44.8%) | 1,158 (37.1%) | 2,759 (73.7%) | 2,880 (76.9%) | 2,707 (72.3%) | 4,000 (58.3%) | 4,276 (62.3%) | 3,865 (56.3%) |
 
 
-## 7. Agreement between the views
+## 6. Agreement between the views
 
 *Image-dependent*: share of posts whose combined label differs from the text-only label (the image changed the human judgement). *Text = image*: share of posts whose text-only and image-only labels agree.
 
@@ -228,7 +209,7 @@ Number of posts (and share within the language) per class, for each annotation v
 | Resource need (T5) | 17.9% | 3.2% | 9.9% | 66.6% | 89.1% | 78.9% |
 
 
-## 8. Files
+## 7. Files
 
 | File | Content |
 | --- | --- |
